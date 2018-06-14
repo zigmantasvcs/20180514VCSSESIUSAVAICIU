@@ -3,31 +3,30 @@
 
 ## Programinės įrangos pasiruošimas
 
-* Kodo redaktoriai: Atom, Sublime, Notepad++ ar kt. (rekomenduoju Atom, įsidiekite).
-* Tik Windows naudotojams: [GitBash](https://git-for-windows.github.io/) arba [cmder](http://cmder.net/). Kaip susitvarkyti git rasite faile Git instructions.docx
+* Kodo redaktoriai: Atom, Sublime, Notepad++ ar kt. (rekomenduoju Atom, įsidiekite iš https://atom.io/).
+* Git naudojimas ir paruošimas tik Windows naudotojams: [GitBash](https://git-for-windows.github.io/) arba [cmder](http://cmder.net/). Kaip susitvarkyti git rasite faile "Git instructions.docx"
 
 ## Kurso I-ojo etapo kalendorius
 
-* Gegužė (21, 22, 24, 25, 28, 29, 31)
-* Birželis (1, 4, 5, 7, 8)
-* Laisvos dienos trečiadieniais
+* Gegužė (15, 18, 19, 20, 21, 22, 25, 26, 27, 28 (ketvirtadienis))
 
 ## Tai ką bandysime perprasti
 
 * HTML 
 * CSS
 * JavaScript
+* Jeigu gerai seksis skirsime laiko PHP ir Mysql tik susipažinimui
 
 ## Savarankiškos užduotys
 
 * Paprastos: paskaitos metu kartu su lektoriumi atliktų užduočių patobulinimai.
 * Papildomos užduotys: šių užduočių turėsite daugiausiai, nuo paprasčiausių skirtų elementarioms įgytoms žinioms užtvirtinti iki sudėtingų kompleksinių užduočių. Šios užduotys skirtos įgūdžių formavimui ir nėra privalomos.
-* Projektas: I projekto etapas yra išsigryninti idėją, schematiškai nusibraižyti idėją popieriaus lape, sukurti idėjos dizainą - veikiančią statinę svetainę. Šis etapas skirtas kaip pasiruošimas antrąjam etapui. Projektas gali būti ir nebaigtinis.
+* Projektas: 4 dienas dirbsite grupėmis po 2-3 žmones ir vystysite savo projektą (svetainė).
 
 ## Vertinimas
 
 Vertinimą sudaro 2 balai. 
-* Vienas balas skiriamas už motyvaciją ir norą mokytis. Vertinama kaip studentas aktyviai dalyvauja paskaitų metu ir po paskaitų kitomis komunikacijomis priemonėmis (skype, messanger ar kt). Kaip stengiasi ir kiek laiko skiria namų darbams.
+* Vienas balas skiriamas už motyvaciją ir norą mokytis. Vertinama kaip studentas aktyviai dalyvauja paskaitų metu ir po paskaitų kitomis komunikacijomis priemonėmis (skype, messanger ar kt). Kaip stengiasi ir kiek laiko skiria papildomoms užduotims.
 * Antras balas skiriamas už pažangą, savarankiškumą, tvarkingą kodo rašymą, įgytas ir pritaikytas žinias, pritaikytos žinios tai jūsų kuriamas projektas.
 
 ## Apšilimas
