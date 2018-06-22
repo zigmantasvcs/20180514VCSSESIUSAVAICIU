@@ -13,10 +13,21 @@
 
     <script src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript">
-      $("[type='button']").click(function(){
+
+      // $("[type='button']").click(function(){
+      //   var senojiReiksme = $("[type='text']").val();
+      //   var mygtukoReiksme = $(this).val();
+      //   var rezultatas = senojiReiksme + mygtukoReiksme;
+      //   $("[type='text']").val(rezultatas);
+      // });
+
+      $("[type='button']").on("click", function(){
+        var senojiReiksme = $("[type='text']").val();
         var mygtukoReiksme = $(this).val();
-        $("[type='text']").val(mygtukoReiksme);
+        var rezultatas = senojiReiksme + mygtukoReiksme;
+        $("[type='text']").val(rezultatas);
       });
+
     </script>
   </body>
 </html>

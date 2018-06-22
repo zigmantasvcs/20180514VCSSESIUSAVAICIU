@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .listas{
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="tekstas" type="text" name="" value="">
+    <input id="ok" type="button" name="" value="OK">
+    <div class="box">
+      <ol>
+
+      </ol>
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+
+
+
+      $("#ok").on("click", function(){
+        var laukelioTekstas = $("#tekstas").val();
+        var listItem = $("<li></li>");
+        listItem.text(laukelioTekstas);
+        listItem.addClass("listas");
+        $(".box ol").append(listItem);
+        $("#tekstas").val("");
+        //alert($(".box ol li").css("color", ));
+      })
+    </script>
+  </body>
+</html>

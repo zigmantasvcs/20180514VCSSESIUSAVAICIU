@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .box{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+
+    </div>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+
+      sukameDezute();
+
+      function sukameDezute(){
+        $(".box").animate({"left":300, "height":"500px"}, 1000, function(){
+          $(".box").animate({"top":300, "height":"100px"}, 1000, function(){
+            $(".box").animate({"left":0, "height":"500px"}, 1000, function(){
+              $(".box").animate({"top":0, "height":"100px"}, 1000, function(){
+                sukameDezute();
+              });
+            });
+          });
+        });
+      }
+
+      //$("[class='box']")
+    </script>
+  </body>
+</html>
